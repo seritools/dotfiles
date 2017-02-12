@@ -1,4 +1,6 @@
-#!/bin/zsh -e
+#!/usr/bin/env zsh
+
+set -e
 
 # get script dir (repo root)
 SCRIPTDIR=${0:a:h}
@@ -7,4 +9,4 @@ SCRIPTDIR=${0:a:h}
 git --git-dir="$SCRIPTDIR"/.git submodule update --init --recursive
 
 # start the symlinking (to HOME)
-stow -R -d "$SCRIPTDIR" -t ~ zsh git fonts
+stow -R -d "$SCRIPTDIR" -t ~ zsh git fonts tmux
