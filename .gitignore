@@ -1,2 +1,7 @@
 # the tmux plugins will be installed by tpm
 tmux/.tmux/plugins
+
+# antigen caches, log, repos
+zsh/.antigen/.cache
+zsh/.antigen/antigen.log
+zsh/.antigen/repos
