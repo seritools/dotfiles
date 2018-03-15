@@ -2,7 +2,7 @@ source ~/.antigen/antigen/antigen.zsh
 
 antigen init ~/.antigenrc
 
-export DEFAULT_USER=st
+export DEFAULT_USER=$USER
 export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=10'
 
 # workaround for tmux socket folder not being created in wsl
