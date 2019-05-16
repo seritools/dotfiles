@@ -1,3 +1,9 @@
 [user]
 	email = git@seri.tools
 	name = Dennis Duda
+[pull]
+	rebase = preserve
+[fetch]
+	prune = true
+[rebase]
+	autoStash = true
