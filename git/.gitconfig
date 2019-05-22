@@ -2,7 +2,7 @@
 	email = git@seri.tools
 	name = Dennis Duda
 [pull]
-	rebase = preserve
+	rebase = true
 [fetch]
 	prune = true
 [rebase]
