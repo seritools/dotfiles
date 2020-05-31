@@ -2,6 +2,5 @@
 tmux/.tmux/plugins
 
 # antigen caches, log, repos
-zsh/.antigen/.cache
-zsh/.antigen/antigen.log
-zsh/.antigen/repos
+zsh/.antigen
+!zsh/.antigen/antigen
